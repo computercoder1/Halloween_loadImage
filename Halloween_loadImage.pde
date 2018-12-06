@@ -4,10 +4,11 @@ PImage img;
 void setup() {
   size(620,400); 
   img = loadImage("snow1.jpg");
-  image(img, 0, 0);
+ 
 }
 
 void draw() {
+  image(img, 0, 0);
   fill(255,255,255); 
   ellipse(440,300,150,130);
   ellipse(437,200,110,90); 
